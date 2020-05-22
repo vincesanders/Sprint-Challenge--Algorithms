@@ -2,10 +2,10 @@
 
 ## Exercise I
 
-a) O(n) - Even though the while loop itereate to n^3, a is increased by n^2 every iteration, which cancels out the while loop to n
+a) O(n) - Even though the while loop iterates to n^3, a is increased by n^2 every iteration, which cancels out the while loop to n
 
 
-b) O(nlogn) - The base for loop is axiomatically n, the nested while loop is a little more tricky. It  doubles as n gets larger, so with larger increases in inputs, it's increase will get smaller. Definitely logn behavior.
+b) O(nlogn) - The base for loop is axiomatically n, the nested while loop is a little more tricky. It  doubles as n gets larger, so with larger increases in n, it's increase will get smaller. Definitely logn behavior.
 
 
 c) O(infinity) - unless the input is 0 or a negative number, this function will result in an infinite loop. If the input is negative it will be O(n) as it steps up toward 0.
